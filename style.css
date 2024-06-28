@@ -1,32 +1,32 @@
 body {
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    color: black;
-  }
-  
-  header {
-    background-color: black;
-    width: 100%;
-    height: 40px;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .container {
-      width: 30rem;
-      background: transparent;
-      height: auto;
-      text-align: center;
-      margin: 5rem auto;
-      border-radius: 20px;
-      box-shadow: 10px 10px 20px white;
-      padding: 20px;
-      background-color:  rgb(249, 168, 212)
-  }
-  
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  color: black;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  width: 30rem;
+  background: transparent;
+  height: auto;
+  text-align: center;
+  margin: 5rem auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px white;
+  padding: 20px;
+  background-color:  rgb(249, 168, 212)
+}
+ 
   .container h1 {
     font-size: 50px;
   }
