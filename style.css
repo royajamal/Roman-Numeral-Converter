@@ -24,46 +24,46 @@ header {
   border-radius: 20px;
   box-shadow: 10px 10px 20px white;
   padding: 20px;
-  background-color:  rgb(249, 168, 212)
+  background-color: rgb(249, 168, 212);
 }
- 
-  .container h1 {
-    font-size: 50px;
-  }
-  
-  .container p {
-    margin: 5px auto;
-    width: 85%;
-    font-size: 18px;
-    margin-bottom: 40px;
-    text-align: justify;
-  }
-  
-  .container span {
-    color: black;
-  }
-  
-  .container input {
-    box-sizing: border-box;
-    width: 65%;
-    height: 2.2rem;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    padding: 20px;
-  }
-  
-  .container button {
-    width: 25%;
-    margin-left: 10px;
-    border-radius: 5px;
-    height: 2.4rem;
-    transition: all 1.5s;
-    font-size: 18px;
-    border: none;
-    box-shadow: 2px 2px 3px #fff;
-  }
-  
+
+.container h1 {
+  font-size: 50px;
+}
+
+.container p {
+  margin: 5px auto;
+  width: 85%;
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.container span {
+  color: black;
+}
+
+.container input {
+  box-sizing: border-box;
+  width: 65%;
+  height: 2.2rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 20px;
+}
+
+.container button {
+  width: 25%;
+  margin-left: 10px;
+  border-radius: 5px;
+  height: 2.4rem;
+  transition: all 1.5s;
+  font-size: 18px;
+  border: none;
+  box-shadow: 2px 2px 3px #fff;
+}
+
   .container button:hover {
     background-color: rgb(249, 168, 212);
     color: white;
