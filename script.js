@@ -1,27 +1,23 @@
-document.getElementById("convert-btn").addEventListener("click", function() {
-    const numberInput = document.getElementById("number").value;
-    const output = document.getElementById("output");
-    const result = document.getElementById("result");
-    const number = parseInt(numberInput);
+document.getElementById("convert-btn").addEventListener("click", () =>  {
+  const numberInput = document.getElementById("number").value;
+  const output = document.getElementById("output");
+  const result = document.getElementById("result");
+  const number = parseInt(numberInput);
 
     if (isNaN(numberInput) || numberInput.trim() === "") {
-        result.innerText = "Please enter a valid number";
-        return;
+    result.innerText = "Please enter a valid number";
+    return;
     }
-
     if (number < 1) {
-        result.innerText = "Please enter a number greater than or equal to 1";
-        return;
-    }
-
+  result.innerText = "Please enter a number greater than or equal to 1";
+  return;
+  }
     if (number >= 4000) {
         result.innerText = "Please enter a number less than or equal to 3999";
         return;
     }
-
     result.innerText = convertToRoman(number);
 });
-
 function convertToRoman(num) {
     const romanNumerals = [
         { value: 1000, numeral: "M" },
@@ -38,7 +34,6 @@ function convertToRoman(num) {
         { value: 4, numeral: "IV" },
         { value: 1, numeral: "I" }
     ];
-
     let result = "";
     for (const { value, numeral } of romanNumerals) {
         while (num >= value) {
