@@ -64,33 +64,33 @@ header {
   box-shadow: 2px 2px 3px #fff;
 }
 
-  .container button:hover {
-    background-color: rgb(249, 168, 212);
-    color: white;
-    font-size: 18px;
-    border-radius: 10px;
-    height: 2.5rem;
-  }
-  
-  #result {
-    box-sizing: border-box;
-    width: 90%;
-    height: 3.5rem;
-    background: transparent;
-    border-radius: 10px;
-    margin: 20px auto 5px auto;
-    box-shadow: 5px 5px 10px #fff;
-    text-align: center;
-    padding-top: 15px;
-    font-size: 20px;
-    transition: 2s;
-  }
-  
-  #result:hover {
-    background-color:rgb(249, 168, 212));
-    color: #fff;
-    font-size: 22px;
-    border-radius: 10px;
-    height: 3.3rem;
-    font-weight: bold;
-  }
+.container button:hover {
+  background-color: rgb(249, 168, 212);
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  height: 2.5rem;
+}
+
+#result {
+  box-sizing: border-box;
+  width: 90%;
+  height: 3.5rem;
+  background: transparent;
+  border-radius: 10px;
+  margin: 20px auto 5px auto;
+  box-shadow: 5px 5px 10px #fff;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  transition: 2s;
+}
+
+#result:hover {
+  background-color: rgb(249, 168, 212);
+  color: #fff;
+  font-size: 22px;
+  border-radius: 10px;
+  height: 3.3rem;
+  font-weight: bold;
+}
