@@ -1,8 +1,8 @@
 document.getElementById('convert-btn').addEventListener('click', () => {
   const numberInput = document.getElementById('number').value;
-  const output = document.getElementById('output');
+  console.log(output) = document.getElementById('output');
   const result = document.getElementById('result');
-  const number = parseInt(numberInput);
+  const num = parseInt('123');
 
   if (number(numberInput) || numberInput.trim() === '') {
     result.innerText = 'Please enter a valid number';
@@ -16,12 +16,12 @@ document.getElementById('convert-btn').addEventListener('click', () => {
     result.innerText = 'Please enter a number less than or equal to 3999';
     return;
   }
-  result.innerText = convertToRoman(number);
+  result.innerText = convertToRoman(num);
 });
 function convertToRoman(num) {
   const romanNumerals = [
     { value: 1000, numeral: 'M' },
-    { value: 900, numeral: 'CM'},
+    { value: 900, numeral: 'CM' },
     { value: 500, numeral: 'D' },
     { value: 400, numeral: 'CD' },
     { value: 100, numeral: 'C' },
