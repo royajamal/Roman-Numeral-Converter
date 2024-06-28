@@ -1,10 +1,9 @@
 document.getElementById('convert-btn').addEventListener('click', () => {
   const numberInput = document.getElementById('number').value;
-  const output = document.getElementById('output');
   const result = document.getElementById('result');
-  const number = parseInt(numberInput);
+  const number = parseInt(numberInput, 10); // Added radix parameter
 
-  if (isNaN(number) || numberInput.trim() === '') {
+  if (Number.isNaN(number) || numberInput.trim() === '') { // Used Number.isNaN instead of isNaN
       result.innerText = 'Please enter a valid number';
       return;
   }
@@ -36,7 +35,7 @@ function convertToRoman(num) {
       { value: 9, numeral: 'IX' },
       { value: 5, numeral: 'V' },
       { value: 4, numeral: 'IV' },
-      { value: 1, numeral: 'I' }
+      { value: 1, numeral: 'I' },
   ];
 
   let result = '';
