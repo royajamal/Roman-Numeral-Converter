@@ -95,7 +95,6 @@ header {
   font-weight: bold;
 }
 
-
 @media (min-width: 769px) {
   .container {
     width: 30rem;
@@ -134,3 +133,4 @@ header {
   }
 
 }
+
