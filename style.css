@@ -94,3 +94,41 @@ header {
   height: 3.3rem;
   font-weight: bold;
 }
+
+@media (min-width: 769px) {
+  .container {
+    width: 30rem;
+    margin: 5rem auto; 
+    padding: 20px; 
+    font-size: 18px; 
+  }
+
+  .container h1 {
+    font-size: 50px; 
+  }
+
+  .container p {
+    width: 85%; 
+    font-size: 18px; 
+  }
+
+  .container input {
+    width: 65%; 
+    padding: 20px; 
+  }
+
+  .container button {
+    width: 25%; 
+    font-size: 18px; 
+  }
+
+  #result {
+    width: 90%; 
+    font-size: 20px; 
+  }
+
+  #result:hover {
+    font-size: 22px; 
+    height: 3.3rem; 
+  }
+}
