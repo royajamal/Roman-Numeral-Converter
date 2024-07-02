@@ -51,11 +51,8 @@ Share and contribute: If you find this project helpful, consider sharing it with
 
 ## Author 👩‍💻
 GitHub: (https://github.com/royajamal/)
-LinkedIn: (https://www.linkedin.com/in/roya-jamal)
-Email: (royajamal2003@gmail.com)
-
-
-
+LinkedIn:(https://www.linkedin.com/in/roya-jamal)
+Email:(royajamal2003@gmail.com)
 
 ## License 📜
 
